@@ -48,7 +48,7 @@ void LedPanelCore::clearAllLeds()
 	ledPanel->clearAllLeds();
 }
 
-void LedPanelCore::drawText(std::wstring text, int col = 0, int row = 0)
+void LedPanelCore::drawText(std::wstring text, int col, int row)
 {
 	ledPanel->drawText(text, col, row);
 }
