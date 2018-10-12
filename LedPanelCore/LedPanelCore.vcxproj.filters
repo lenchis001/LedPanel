@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Windows">
+      <UniqueIdentifier>{4aa7c3c0-c47f-4ea2-b5da-7032ca7e76a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Windows\MainWindow">
+      <UniqueIdentifier>{eeb8ffcf-b8a7-4eeb-a245-54e8de8df28f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Windows\MainWindow\Controls">
+      <UniqueIdentifier>{55d8c335-c4cd-46f5-9e98-0737e2346614}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Sources\App.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Windows\MainWindow\MainWindow.cpp">
+      <Filter>Source Files\Windows\MainWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Windows\MainWindow\Controls\LedPanel.cpp">
+      <Filter>Source Files\Windows\MainWindow\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Facade.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Windows\MainWindow\Controls\Redrawer.cpp">
+      <Filter>Source Files\Windows\MainWindow\Controls</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Sources\App.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\Windows\MainWindow\MainWindow.h">
+      <Filter>Source Files\Windows\MainWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\Windows\MainWindow\Controls\LedPanel.h">
+      <Filter>Source Files\Windows\MainWindow\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\Facade.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\Consts.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\Windows\MainWindow\Controls\Redrawer.h">
+      <Filter>Source Files\Windows\MainWindow\Controls</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
